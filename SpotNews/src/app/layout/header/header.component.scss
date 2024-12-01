@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0px;
+  box-shadow:  0px 0px 5px rgba(128, 128, 128, 0.548);
+  .header-align {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    .half{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        font-family: Bold;
+        .spotnews-logo{
+            cursor: pointer;
+        }
+        .login-btn{
+            background-color: #0004FF;
+            color: white;
+            border-radius: 10px;
+            padding: 8px 26px;
+            border: none;
+            cursor: pointer;
+        }
+        .search-align{
+            position: relative;
+            .search-button{
+                border: none;
+                cursor: pointer;
+            }
+            .search{
+                border-radius: 20px;
+                padding: 8px 26px;
+            }
+            .search-icon{
+                right: 16px;
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+            }
+        }
+        
+    }
+  }
+}

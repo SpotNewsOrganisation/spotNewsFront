@@ -1,0 +1,55 @@
+.registration-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 3px rgba(128, 128, 128, 0.541);
+    animation:0.3s cardAnim;
+    .input-align{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        .inputs{
+            padding: 12px 16px;
+            border-radius: 10px;
+            border: 0.5px solid rgba(128, 128, 128, 0.403);
+            min-width: 300px;
+        }
+    }
+    .footer-align{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 20px;
+        .first-time-align{
+            display: flex;
+            align-items: center;
+            .first-time-text{
+                font-size: 16px;
+            }
+            .bold-text{
+                font-family: Bold; 
+                cursor: pointer;
+            }
+        }
+        .login-btn{
+            min-width: 300px;
+            border-radius: 10px;
+            background-color: #0004FF;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+        }
+    }
+}
+
+@keyframes cardAnim{
+    0%{
+        scale: 0.5;
+    }
+    100%{
+        scale: 1;
+    }
+}

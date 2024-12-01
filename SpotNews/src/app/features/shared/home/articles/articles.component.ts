@@ -9,6 +9,5 @@ import { article } from '../../../pages/home/models/article';
   styleUrl: './articles.component.scss'
 })
 export class ArticlesComponent {
-  @Input()
-  articles!: article;
+  @Input() articles!: article;
 }

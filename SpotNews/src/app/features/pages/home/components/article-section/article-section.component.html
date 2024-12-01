@@ -1,4 +1,8 @@
 
-@for (art of articles; track art.title;) {
-    <app-articles [articles]="art" />
-}
+<div class="center-article">
+    <div class="article-align">
+        @for (art of articles; track art.title;) {
+            <app-articles [articles]="art" class="article"/>
+        }
+    </div>
+</div>

@@ -1,1 +1,19 @@
-<p>header works!</p>
+<div class="header">
+    <div class="header-align">
+        <div class="half">
+            <img src="assets/icons/logo.svg" alt="" [routerLink]="routes.home" class="spotnews-logo">
+            <p class="header-text">Resources</p>
+            <p class="header-text">Creators</p>
+            <p class="header-text">Explore</p>
+        </div>
+        <div class="half">
+            <div class="search-align">
+                <button class="search-button"> 
+                    <img src="assets/icons/searchicon.svg" alt="" class="search-icon">
+                </button>
+                <input type="text" class="search">
+            </div>
+            <button class="login-btn" [routerLink]="routes.signin">Log in</button>
+        </div>
+    </div>
+</div>

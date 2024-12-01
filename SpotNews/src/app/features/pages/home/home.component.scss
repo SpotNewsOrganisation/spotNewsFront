@@ -1,0 +1,11 @@
+.center-articles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .article-align {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,109 @@
+.footer {
+    margin: 0 auto; /* Center the footer */
+    display: flex;
+    justify-content: space-between; /* Equal spacing between sections */
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 30px 20px; /* Add consistent padding */
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
+  }
+  
+  .footer-section {
+    flex: 1; /* Equal width for all sections */
+    min-width: 150px; /* Prevent collapsing on smaller screens */
+    margin: 0 10px; /* Space between sections */
+  }
+  
+  h4 {
+    font-size: 14px; /* Smaller section titles */
+    margin-bottom: 10px; /* Space below section titles */
+    font-weight: bold; /* Bold headings */
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin: 5px 0; /* Compact spacing between list items */
+  }
+  
+  ul li a {
+    color: #fff; /* White links */
+    text-decoration: none; /* No underline by default */
+    font-size: 13px; /* Compact font size */
+  }
+  
+  ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Add space between icons */
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 16px; /* Icon size */
+    text-decoration: none;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align form to the left */
+  }
+  
+  input[type="email"] {
+    padding: 8px;
+    width: 100%; /* Full width for the input */
+    box-sizing: border-box; /* Includes padding in width */
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Space below the input */
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #555; /* Gray button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777; /* Darker gray on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center; /* Center-align for small screens */
+      padding: 20px;
+    }
+  
+    .footer-section {
+      text-align: center; /* Center-align section content */
+      margin: 15px 0; /* Add spacing between stacked sections */
+    }
+  
+    form {
+      align-items: center; /* Center-align the form */
+      width: 100%; /* Ensure full width */
+    }
+  
+    input[type="email"] {
+      width: 80%; /* Constrain width for smaller screens */
+    }
+  
+    button {
+      width: auto; /* Keep button compact */
+    }
+  }
+  

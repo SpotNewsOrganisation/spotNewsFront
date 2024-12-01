@@ -10,4 +10,5 @@ export class article {
     }
   }
   export const articlelist: article[] = [];
+  export const articlelist2: article[] = [];
   

@@ -1,0 +1,30 @@
+.modal-parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.388);
+    position: fixed;
+    z-index: 15;
+    animation:0.5s modalAnimation;
+    .modal{
+        width: 90%;
+        max-width: 600px;
+        border-radius: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.374);
+        background-color: white;
+        color: black;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@keyframes modalAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

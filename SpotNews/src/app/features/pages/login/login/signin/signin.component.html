@@ -1,0 +1,17 @@
+<div class="registration-card">
+    <img src="assets/icons/logo.svg" alt="">
+    <label for="" class="login-label">Login in to SpotNews</label>
+    <form [formGroup]="signinForm" class="input-align">
+        <input type="email" formControlName = "email" class="inputs" placeholder="Enter your Email">
+        <input type="password" formControlName = "password" class="inputs" placeholder="password">
+    </form>
+
+    <div class="footer-align">
+        <div class="first-time-align">
+            <p class="first-time-text"> First time here?</p>
+            <p class="first-time-text bold-text" (click)="navigate()"> Create an account </p>
+        </div>
+        <button class="login-btn" (click)="login()">Login</button>
+    </div>
+
+</div>

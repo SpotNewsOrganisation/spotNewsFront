@@ -1,0 +1,14 @@
+.center-article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .article-align {
+    width: 100%;
+    display: flex;
+    gap: 26px;
+    place-items: center;
+    .article {
+      width: 100%;
+    }
+  }
+}
